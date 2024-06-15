@@ -1,0 +1,38 @@
+# A list of rules I use to avoid certain time-wasting websites
+
+##################################################
+# Reddit
+##################################################
+# Block subreddits I'm liable to visit, plus the reddit homepage
+||www.reddit.com/r/all^$document
+||www.reddit.com/r/ireland^$document
+||www.reddit.com/r/casualuk^$document
+||reddit.com^|$document
+
+# Block certain elements on Reddit. Can't remember what, but I think these are links to other subreddits & recommended posts & stuff
+! 2024-05-19 https://www.reddit.com
+www.reddit.com##.pt-md.px-md.w-\[272px\].box-border.bg-neutral-background.overflow-x-hidden.overflow-y-scroll.styled-scrollbars.h-screen-without-header.top-\[56px\].sticky.w-full.block.nd\:visible
+www.reddit.com##.border-r-neutral-border.s\:border-r-sm.border-solid.border-0.m\:block.hidden.order-first.isolate.theme-rpl.left-sidebar
+www.reddit.com##.xs\:overflow-x-hidden.xs\:overflow-y-auto.xs\:max-h-\[calc\(100vh-var\(--shreddit-header-height\)-1px\)\].xs\:top-\[56px\].xs\:sticky.styled-scrollbars.block.xs\:min-w-\[316px\].xs\:w-\[316px\].w-full.right-sidebar
+www.reddit.com##.justify-start.items-center.gap-xs.flex.pr-lg
+
+##################################################
+# Youtube
+##################################################
+
+# Block youtube homepage. This still allows access to specific videos, e.g. via searche engines
+||youtube.com^|$document
+
+# Block certain elements on the page, like the home button
+! 2024-01-14 https://www.youtube.com
+www.youtube.com##.ytd-rich-section-renderer.style-scope > .ytd-rich-shelf-renderer.style-scope
+
+! 2024-05-19 https://www.youtube.com
+www.youtube.com##.ytd-topbar-logo-renderer.style-scope > .ytd-logo.style-scope
+www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(1)
+
+
+
+
+# Other sites
+linkedin.com
