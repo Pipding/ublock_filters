@@ -16,6 +16,9 @@ www.reddit.com##.border-r-neutral-border.s\:border-r-sm.border-solid.border-0.m\
 www.reddit.com##.xs\:overflow-x-hidden.xs\:overflow-y-auto.xs\:max-h-\[calc\(100vh-var\(--shreddit-header-height\)-1px\)\].xs\:top-\[56px\].xs\:sticky.styled-scrollbars.block.xs\:min-w-\[316px\].xs\:w-\[316px\].w-full.right-sidebar
 www.reddit.com##.justify-start.items-center.gap-xs.flex.pr-lg
 
+! 2026-01-04 https://www.reddit.com
+www.reddit.com##:matches-path(/^\/$|^\/r\/all\/?$/) .nd\:visible
+
 ##################################################
 # Youtube
 ##################################################
