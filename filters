@@ -1,8 +1,27 @@
-# A list of rules I use to avoid certain time-wasting websites
+! May 25, 2025 https://www.youtube.com
+www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(1)
+www.youtube.com##.ytd-topbar-logo-renderer.style-scope > .ytd-logo.style-scope
+www.youtube.com###contentContainer
+www.youtube.com###chips-wrapper > .ytd-feed-filter-chip-bar-renderer.style-scope
+www.youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer.style-scope
+
+! May 29, 2025 https://www.youtube.com
+www.youtube.com##ytd-reel-shelf-renderer.ytd-item-section-renderer.style-scope:nth-of-type(1)
+
+! Jul 21, 2025 https://www.linkedin.com
+www.linkedin.com##div:nth-of-type(15)
+www.linkedin.com##.relative > .full-height
+
+! Jul 24, 2025 https://www.youtube.com
+www.youtube.com##.ytd-feed-entry-renderer.style-scope.info > .ytd-feed-entry-renderer.style-scope
+
 
 ##################################################
 # Reddit
 ##################################################
+! 2026-01-04 https://www.reddit.com
+www.reddit.com##:matches-path(/^\/$|^\/r\/all\/?$/) .nd\:visible
+
 # Block subreddits I'm liable to visit, plus the reddit homepage
 ||www.reddit.com/r/all^$document
 ||www.reddit.com/r/ireland^$document
@@ -15,9 +34,6 @@ www.reddit.com##.pt-md.px-md.w-\[272px\].box-border.bg-neutral-background.overfl
 www.reddit.com##.border-r-neutral-border.s\:border-r-sm.border-solid.border-0.m\:block.hidden.order-first.isolate.theme-rpl.left-sidebar
 www.reddit.com##.xs\:overflow-x-hidden.xs\:overflow-y-auto.xs\:max-h-\[calc\(100vh-var\(--shreddit-header-height\)-1px\)\].xs\:top-\[56px\].xs\:sticky.styled-scrollbars.block.xs\:min-w-\[316px\].xs\:w-\[316px\].w-full.right-sidebar
 www.reddit.com##.justify-start.items-center.gap-xs.flex.pr-lg
-
-! 2026-01-04 https://www.reddit.com
-www.reddit.com##:matches-path(/^\/$|^\/r\/all\/?$/) .nd\:visible
 
 ##################################################
 # Youtube
@@ -34,8 +50,10 @@ www.youtube.com##.ytd-rich-section-renderer.style-scope > .ytd-rich-shelf-render
 www.youtube.com##.ytd-topbar-logo-renderer.style-scope > .ytd-logo.style-scope
 www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(1)
 
+! 2026-01-04 https://www.reddit.com
+www.reddit.com##:matches-path(/^\/$|^\/r\/all\/?$/) .nd\:visible
 
+# Block recommended videos on the homepage
+! 2026-01-20 https://www.youtube.com
+www.youtube.com###contents
 
-
-# Other sites
-linkedin.com
